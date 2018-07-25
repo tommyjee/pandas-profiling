@@ -143,3 +143,31 @@ def correlation_matrix(corrdf, title, **kwargs):
     result_string = 'data:image/png;base64,' + quote(base64.b64encode(imgdata.getvalue()))
     plt.close(matrix_image.figure)
     return result_string
+
+def multi_scatter(series1, series2, **kwargs):
+    if base.get_vartype(series1) == base.TYPE_CAT or 
+    base.get_vartype(series1) == base.TYPE_BOOL and
+    base.get_vartype(series2) == base.TYPE_NUM:
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
